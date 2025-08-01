@@ -1,5 +1,6 @@
 {
   "name": "factorio-quality",
+  "homepage": "https://chinseee.github.io/factorio-quality-calc/",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
