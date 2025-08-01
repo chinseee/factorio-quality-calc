@@ -6,7 +6,7 @@ import { buildingIcons, qualityIcons } from './constants';
 import { useState } from 'react';
 import type { buildingID, IconOption, moduleBonuses } from './types';
 import buildings from './data/buildings.json';
-import ResultsBody from './resultsBody';
+import ResultsBody from './ResultsBody';
 
 import factorioLogo from './assets/factorio.png';
 
