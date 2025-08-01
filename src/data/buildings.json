@@ -1,0 +1,37 @@
+{
+    "assembling_machine_2": {
+        "name": "Assembling machine 2",
+        "moduleCount": 2
+    },
+    "assembling_machine_3": {
+        "name": "Assembling machine 3",
+        "moduleCount": 4
+    },
+    "chemical_plant": {
+        "name": "Chemical plant",
+        "moduleCount": 3
+    },
+    "centrifuge": {
+        "name": "Centrifuge",
+        "moduleCount": 2
+    },
+    "foundry": {
+        "name": "Foundry",
+        "moduleCount": 4,
+        "baseProductivity": 50
+    },
+    "electromagnetic_plant": {
+        "name": "Electromagnetic plant",
+        "moduleCount": 5,
+        "baseProductivity": 50
+    },
+    "biochamber": {
+        "name": "Biochamber",
+        "moduleCount": 4,
+        "baseProductivity": 50
+    },
+    "cryogenic_plant": {
+        "name": "Cryogenic plant",
+        "moduleCount": 8
+    }
+}

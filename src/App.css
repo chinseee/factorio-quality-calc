@@ -5,13 +5,25 @@
   text-align: center;
 }
 
-.clear-btn {
-  margin: 8px;
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-control {
+  text-align: right;
+}
+
+.no-spinner {
+  -moz-appearance: textfield;
+  /* Firefox */
 }
 
 .module-dropdown-toggle {
-  width: 64px;
-  height: 64px;
+  width: 42px;
+  height: 42px;
+  padding: 0rem !important;
 }
 
 .module-dropdown-toggle::after {
@@ -19,32 +31,41 @@
 }
 
 .module-dropdown-menu {
-  padding: 16px !important;
+  padding: 8px !important;
 }
 
 .module-grid {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 2px;
 }
 
 .module-grid-row {
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 2px;
 }
 
 .module-icon {
-  cursor: pointer;
-  text-align: center;
-  padding: 6px;
-  color: white;
+  border: 2px solid !important;
 }
 
-.selected {
-  background-color: lightgrey;
-  border-radius: 6px;
-  border: 2px solid grey;
+.module-icon.selected {
+  border: 2px solid blue !important;
   color: black;
-  padding: 4px;
+}
+
+.field-card-body {
+  border: 2px solid transparent;
+  border-radius: 6px;
+  margin: 10px;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.field-card-body.selected {
+  border: 2px solid blue !important;
+}
+
+.inline-sprite-text>* {
+  vertical-align: middle;
 }
